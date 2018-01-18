@@ -96,6 +96,8 @@ public class GenericWrappers extends Reporter implements Wrappers {
 	 */
 	public RemoteWebDriver invokeApp(String browser, boolean bRemote) {
 		try {
+			//TO DISPLAY STMT
+			System.out.println("INVOKE APP");
 
 			DesiredCapabilities dc = new DesiredCapabilities();
 			dc.setBrowserName(browser);
